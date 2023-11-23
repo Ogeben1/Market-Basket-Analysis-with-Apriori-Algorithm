@@ -16,10 +16,10 @@ Market Basket analysis can provide valuable information to increase sales by bet
   Project Steps
 
 ## The project involves the following main steps:
-Data Collection and Preprocessing
-Market Basket Analysis
-Data Visualization
-Insight Reporting and Visualization
+* Data Collection and Preprocessing
+* Market Basket Analysis
+* Data Visualization
+* Insight Reporting and Visualization
 
 ## Getting Started
 To get started with this project, follow these steps:
