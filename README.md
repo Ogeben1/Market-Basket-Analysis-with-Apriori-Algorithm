@@ -19,9 +19,7 @@ Market Basket analysis can provide valuable information to increase sales by bet
 Data Collection and Preprocessing
 Market Basket Analysis
 Data Visualization
-Product Benchmarking
-In-Depth Analysis
-Reporting and Visualization
+Insight Reporting and Visualization
 
 ## Getting Started
 To get started with this project, follow these steps:
@@ -37,7 +35,7 @@ To run this project, you need the following dependencies:
 - Libraries: pandas, numpy, matplotlib, seaborn, textblob (or other NLP libraries)
 - You can install the required dependencies using pip:
 
-Usage
+## Usage
 Clone the repository to your local machine.
 Place your grocery dataset in the specified directory.
 Run the Python scripts provided in each project step.
@@ -45,10 +43,38 @@ Follow the instructions in the scripts to analyze your data.
 Results and Visualizations
 The project provides various visualizations and insights into market basket analysis. Check the results and visualizations section for more details.
 
-In-Depth Analysis
-To conduct a more in-depth analysis, refer to the "In-Depth Analysis" section in the code. This section covers advanced analysis and insights into the data.
+#### Data Loading and Cleaning:
+Load the grocery sales data and perform initial data cleaning.
+Convert 'Member_number' to a string and 'Date' to datetime format.
 
-Contributing
+##### Unique Transactions:
+Create a 'uniqueTransaction' column to group items purchased per customer per day.
+
+#### Cross-Tabulation (Basket Creation):
+Create a cross-tabulation ('basket') to represent the frequency of items in each unique transaction.
+Create a binary-encoded DataFrame ('apriori_df').
+
+#### Apriori Algorithm and Association Rules:
+Apply the Apriori algorithm to generate frequent itemsets.
+Use association rules, focusing on Zhang's metric for evaluation.
+Heatmap Visualization:
+
+#### Visualize product associations using a heatmap.
+Interpret the heatmap to understand frequent itemsets.
+
+#### Positive Association Visualization:
+
+Explore pairs with positive Zhang's metric to highlight positive associations.
+
+#### Visualization
+Utilize heatmaps for clear and intuitive visualization of product associations.
+Explore positive associations to understand which products complement each other.
+
+#### Insights
+Use Zhang's metric for a comprehensive evaluation of association rules.
+Interpret negative and positive values to understand anti-associations and strong positive relationships.
+
+## Contributing
 Contributions are welcomed! Feel free to open issues, make pull requests, or provide feedback to enhance this project.
 
 Feel free to modify this template to suit your specific project details and provide additional information as needed. A well-detailed README can help others understand and contribute to your project effectively.
