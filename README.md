@@ -43,6 +43,7 @@ Follow the instructions in the scripts to analyze your data.
 Results and Visualizations
 The project provides various visualizations and insights into market basket analysis. Check the results and visualizations section for more details.
 
+## Code structure
 #### Data Loading and Cleaning:
 Load the grocery sales data and perform initial data cleaning.
 Convert 'Member_number' to a string and 'Date' to datetime format.
