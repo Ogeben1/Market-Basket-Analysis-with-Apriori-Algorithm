@@ -1,7 +1,7 @@
 # Market-Basket-Analysis-with-Apriori-Algorithm
 This project involves performing Market Basket Analysis using the Apriori algorithm. The analysis is applied to a grocery sales dataset to discover associations between different products.
 
-#Description
+#### Description
 - Whenever you visit a retail supermarket, you will find that milk, sugar and coffee, bread and butter, pizza base and cheese, chocolate, and pringles are positioned together in the store for sales. This is what market basket analysis is all about - analyzing the association of products bought together by customers.
   Market basket analysis is a versatile used case in the retail industry that helps cross-sell products in a physical outlet and also helps e-commerce businesses recommend products to customers based on product associations. Apriori and FP growth are the most popular machine learning algorithms used for association learning to perform market basket analysis.
 
