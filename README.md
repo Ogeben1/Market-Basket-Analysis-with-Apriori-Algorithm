@@ -1,5 +1,5 @@
 # Market-Basket-Analysis-with-Apriori-Algorithm
-This project involves performing Market Basket Analysis using the Apriori algorithm. The analysis is applied to a grocery sales dataset to discover associations between different products.
+This repository contains a Python script for performing Market Basket Analysis using the Apriori algorithm. The analysis is applied to a grocery sales dataset to discover associations between different products.
 
 #### Description
 - Whenever you visit a retail supermarket, you will find that milk, sugar and coffee, bread and butter, pizza base and cheese, chocolate, and pringles are positioned together in the store for sales. This is what market basket analysis is all about - analyzing the association of products bought together by customers.
